@@ -1,0 +1,19 @@
+{
+    "tasks": [
+      {
+        "id": "1",
+        "taskName": "Sample Task 1",
+        "description": "This is the first sample task",
+        "lastUpdated": "2024-08-04T10:00:00Z",
+        "isCompleted": false
+      },
+      {
+        "id": "2",
+        "taskName": "Sample Task 2",
+        "description": "This is the second sample task",
+        "lastUpdated": "2024-08-03T12:30:00Z",
+        "isCompleted": true
+      }
+    ]
+  }
+  
