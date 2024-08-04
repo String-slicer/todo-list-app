@@ -15,7 +15,7 @@ This project is a frontend Todo List application built with React. It allows use
 
 - **React**: A JavaScript library for building user interfaces.
 - **Tailwind CSS**: A utility-first CSS framework for styling.
-- **UUID**: For generating unique IDs for each task.
+
 
 ## Getting Started
 
