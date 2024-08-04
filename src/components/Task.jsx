@@ -67,10 +67,7 @@ const Task = ({ task, onUpdate, onDelete }) => {
             aria-labelledby={`accordion-collapse-heading-${task.id}`}
           >
             <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700 ">
-              {/* <p className="mb-2 text-gray-500 dark:text-gray-400">{task.description}</p> */}
-              {/* <small className="text-gray-500 dark:text-gray-400">
-                Last updated: {new Date(task.lastUpdated).toLocaleString()}
-              </small> */}
+
               {isEditing ? (
                 <div>
                   <p>Task Name</p>
@@ -97,10 +94,7 @@ const Task = ({ task, onUpdate, onDelete }) => {
               </small>
                 </div>
               )}
-              {/* <div>
-                <input type="checkbox" checked={task.isCompleted} onChange={handleToggleComplete} />
-                <label>Mark as Done</label>
-              </div> */}
+           
             </div>
           </div>
         </div>
